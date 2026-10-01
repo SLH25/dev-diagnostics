@@ -1,0 +1,2 @@
+[console_scripts]
+dev-diagnostics = dev_diagnostics.cli:main

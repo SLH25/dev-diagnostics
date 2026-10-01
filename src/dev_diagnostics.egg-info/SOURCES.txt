@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/dev_diagnostics/__init__.py
+src/dev_diagnostics/checks.py
+src/dev_diagnostics/cli.py
+src/dev_diagnostics.egg-info/PKG-INFO
+src/dev_diagnostics.egg-info/SOURCES.txt
+src/dev_diagnostics.egg-info/dependency_links.txt
+src/dev_diagnostics.egg-info/entry_points.txt
+src/dev_diagnostics.egg-info/top_level.txt
+tests/test_checks.py

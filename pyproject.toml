@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-diagnostics"
+version = "1.0.0"
+description = "A CLI tool for checking developer environment health"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Salihou Oumarou" }
+]
+
+[project.scripts]
+dev-diagnostics = "dev_diagnostics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
